@@ -1,6 +1,5 @@
 # Opens and reads a text file named sample.txt
-##Prints its content line by line.
-
+#Prints its content line by line.
 try:
     f = open('sample.txt','r')
     content = f.readlines()
