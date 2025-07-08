@@ -1,6 +1,4 @@
 #1.   Takes user input and writes it to a file named output.txt.
-from logging import exception
-
 try:
     text = input("enter the text write to the file:")
     f = open('output.txt', 'w')
